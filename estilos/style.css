@@ -65,6 +65,7 @@ article#mensagem{
     margin: auto;
     margin-top: 30px;
     max-width: 180px;
+    border: 5px;
     border-style: double;
     border-color: pink ;
    
@@ -149,6 +150,7 @@ article#resenha{
     margin-top: 30px;
     margin-bottom: 30px;
     max-width: 200px;
+    border: 5px;
     border-style: double;
     border-color: pink;
     box-shadow: 1px 8px 10px 0px rgba(0, 0, 0, 0.288);
@@ -201,10 +203,12 @@ article#jojo{
 }
 
 article#jojo>div{
+    
     margin: auto;
     width: 280px;
     padding: 20px;
     padding-bottom: 250px;
+    border: 5px;
     border-style: double;
     border-color: rgb(223, 0, 223);
     
