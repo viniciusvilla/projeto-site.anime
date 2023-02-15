@@ -27,10 +27,14 @@ body{
 
 main{
     background-color: white;
+    min-width: 300px;
     max-width: 1000px;
     margin: auto;
     padding-top: 50px;
     padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
     box-shadow: 1px 8px 10px 0px rgba(0, 0, 0, 0.288);
     
 }
@@ -84,7 +88,7 @@ article#mensagem{
 }
 
 
-article>h1{
+article#mensagem>h1{
     margin-bottom: 10px;
 }
 
@@ -92,7 +96,9 @@ section{
    
     background-color: white;
     margin: auto;
+    min-width: 300px;
     max-width: 1000px;
+   
     
 }
 
@@ -102,7 +108,7 @@ section>h1{
     font-weight: normal;
     margin-top: 100px;
     margin-bottom: 10px;
-    padding-left: 50px;
+    padding-left: px;
 }
 
 
@@ -111,7 +117,6 @@ section>h2{
     font-family: 'texto';
     font-weight: normal;
     margin-top: 50px;
-    margin-bottom: ;
     text-align: center;
 }
 
@@ -122,18 +127,16 @@ section>h3{
    margin-top: 10px;
    margin-bottom: 10px;
    font-size: 1.3em;
-   padding-left: 50px;
+   padding-left: px;
    
 }
 
 section>p{
-    
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
     font-family: 'texto2';
     line-height: 1.8em;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 10px;
-    padding-top: 10px;
     text-align: justify;
 
     
@@ -144,9 +147,10 @@ article#resenha{
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    max-width: 320px;
+    max-width: 200px;
     border-style: double;
     border-color: pink;
+    box-shadow: 1px 8px 10px 0px rgba(0, 0, 0, 0.288);
     
     
     text-align: justify;
@@ -184,19 +188,28 @@ article#jojo{
     max-width: 1000px;
     margin: auto;
     padding-top: 50px;
-    padding-bottom: 600px;
+    padding-bottom: 360px;
     box-shadow: 1px 8px 10px 0px rgba(0, 0, 0, 0.288);
     background-image: url('../imagens/joseph-joestar-gif.gif');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 200px;
-    
-   
-   
+    padding-right: 20px;
+    padding-left: 20px;
     
 }
 
-article#jojo>h1{
+article#jojo>div{
+    margin: auto;
+    width: 280px;
+    padding: 20px;
+    padding-bottom: 250px;
+    border-style: double;
+    border-color: rgb(223, 0, 223);
+    
+}
+
+article#jojo>div>h1{
     margin: auto;
     font-size: 2.5em;
     text-align: center;
@@ -205,19 +218,20 @@ article#jojo>h1{
     margin-top: 50px;
     margin-bottom: 10px;
     
+    
 }
 
-article#jojo>p{
+article#jojo>div>p{
+    max-width: 300px;
     margin: auto;
     text-align: center;
     font-family: 'texto2';
     line-height: 1.8em;
-    padding-left: 50px;
-    padding-right: 50px;
-    
     padding-bottom: 10px;
     padding-top: 10px;
     text-align: justify;
+   
+    
 }
 
 
